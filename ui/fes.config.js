@@ -13,8 +13,8 @@ export default {
         },
         // 开发环境机器
         dev: {
-            api: '/qualitis',
-            
+            api: 'qualitis',
+
         },
         // 测试环境 fes build --env=sit 触发使用
         sit: {
