@@ -13,8 +13,8 @@ export default {
         },
         // 开发环境机器
         dev: {
-            api: 'qualitis',
-
+            api: '/qualitis',
+            
         },
         // 测试环境 fes build --env=sit 触发使用
         sit: {
@@ -39,7 +39,7 @@ export default {
         unLogin: ['/home','/dashboard', '/'],
         noauth: ['/dashboard','/home','/taskQuery', '/taskQuery/verificationDetails', '/taskQuery/ruleDetails', '/addTechniqueRule','/ruleQuery','/ruleQuery/*','/taskDetail',
         '/ruleTemplateList','/ruleTemplateList/*','/myProject','/projects/*','/myProject/*','/HelpDocument','/customTechnicalRule',
-        '/crossTableCheck','/verifyFailData', '/addGroupTechniqueRule', '/metricManagement', '/engineConfiguration', '/'],
+        '/crossTableCheck','/verifyFailData', '/addGroupTechniqueRule', '/metricManagement', '/engineConfiguration', '/dataSourceManagement', '/'],
         admin: ['/dashboard','*']
     },
     // map
